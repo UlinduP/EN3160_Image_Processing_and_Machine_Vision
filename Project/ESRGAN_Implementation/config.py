@@ -5,7 +5,7 @@ from albumentations.pytorch import ToTensorV2
 
 LOAD_MODEL = True
 SAVE_MODEL = True
-CHECKPOINT_GEN = "gen.pth"
+CHECKPOINT_GEN = "D:/_FoE/_Fifth Semester/Computer Vision/Assignments/EN3160_Image_Processing_and_Machine_Vision/Project/ESRGAN_Implementation/ESRGAN_generator.pth" #"gen.pth"
 CHECKPOINT_DISC = "disc.pth"
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 LEARNING_RATE = 1e-4
